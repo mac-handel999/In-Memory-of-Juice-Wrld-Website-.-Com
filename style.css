@@ -1,0 +1,151 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  font-size: 19px;
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  background-color: dimgrey;
+  
+  
+}
+
+
+header {
+  color: orange;
+  background-color: red;
+  padding: 10px;
+ 
+  
+}
+
+.nav-links {
+  color: tomato;
+  background-color:purple ;
+  border-radius: 0px;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  border:unset #fff;
+  
+}
+
+
+a {
+  text-decoration: none;
+  color:red;
+}
+
+.logo {
+  background-image: url(images/alphabet_img.jpg);
+  font-size:  78px;
+  color: red;
+  text-align: center;
+  border-radius: 20px;
+  
+}
+
+.juice {
+  color:yellow;
+}
+
+.wrld {
+ color:purple;
+}
+
+.hero {
+   
+  background-color:black;
+  padding: 20px;
+  background-clip: top;
+  background-repeat: no-repeat;
+  width: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+  color: #fff;
+  
+}
+
+.hello {
+  color: yellow;
+}
+
+.world { 
+  color: red;
+}
+
+
+button,.click-me, .hero-btn{
+  padding: 16px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: purple;
+  cursor: pointer;
+  
+}
+
+
+button:hover, .hero-btn:hover, .click-me:hover {
+  background-color: red;
+  color: #fff; 
+}
+
+.img {
+  border-radius: 20px;
+  
+}
+
+/*.juice-img {
+  background-color: yellow;
+  border-radius: 10px;
+  width: 287px;
+  height: 265px;
+  margin: 6px;
+  padding: 6px;
+  
+}
+*/
+
+.about-him {
+  margin:0px;
+  padding: 20px;
+  text-align: center ;
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  
+  
+}
+
+.songs-by-juice {
+  margin:0px;
+  padding: 3px;
+  text-align: center;
+  color: #fff;
+  background-color: purple;
+}
+
+.songs {
+  margin: 10px;
+  padding: 10px;
+  text-align:center;
+  background: red;
+  border-radius:40px;
+  box-shadow: 10px 8px 10px 8px black;
+
+}
+
+img {
+  border-radius :20px;
+}
+
+footer {
+  padding:10px;
+  text-align: center;
+  background: black;
+  color: #fff;
+}
